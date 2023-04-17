@@ -34,7 +34,7 @@ local char = lplr.Character
 local TeleportService = game:GetService("TeleportService")
 local GameList = loadstring(game:HttpGet("https://raw.githubusercontent.com/FearLLC/FearV1/main/GameList.lua",true))()
 
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local repo = 'https://raw.githubusercontent.com/FearLLC/LinoriaLib/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
