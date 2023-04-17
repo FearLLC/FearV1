@@ -10,26 +10,9 @@
 
     Join discord for more opensource script - https://discord.gg/BWpBU6Cy4j
 
-    TODO:
-    - Noclip
-
 ]]--
 
 
-
--- << IP WHO THIS? :) >> --
-
-local HttpService = game:GetService("HttpService")
-
-local httpRequest = (syn and syn.request) or (http and http.request) or http_request
-local JSONDecode_ret = nil
-
-if httpRequest then
-    JSONDecode_ret = HttpService:JSONDecode(httpRequest({
-        Url = "https://ipwho.is",
-        Method = "GET"
-    }).Body)
-end
 
 --------------
 
