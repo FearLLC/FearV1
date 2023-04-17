@@ -5,7 +5,7 @@ until game:IsLoaded()
 
 
 getgenv().games = {
-    4483381587
+    
 }
 
 for i,v in pairs(getgenv().games) do
