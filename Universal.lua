@@ -32,7 +32,7 @@ local camera = game.Workspace.CurrentCamera
 local RunService = game:GetService("RunService")
 local char = lplr.Character
 local TeleportService = game:GetService("TeleportService")
-local GameList = loadstring(game:HttpGet("https://raw.githubusercontent.com/FearLLC/FearV1/17f21dabf9dd03554c02f251dfa75e74081e60c9/GameList.lua",true))()
+local GameList = loadstring(game:HttpGet("https://raw.githubusercontent.com/FearLLC/FearV1/main/GameList.lua",true))()
 
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 
